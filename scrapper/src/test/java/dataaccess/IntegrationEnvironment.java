@@ -64,7 +64,6 @@ public abstract class IntegrationEnvironment {
         } catch (LiquibaseException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
 
